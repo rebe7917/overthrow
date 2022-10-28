@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"/>
+    <title>Spillet</title>
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="spil.css" />
+    <link rel="stylesheet" href="animationer.css" />
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+    <!-- <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="spil.html">Spillet</a></li>
+          <li><a href="assetliste.html">Assetliste</a></li>
+          <li><a href="ide.html">Ide</a></li>
+          <li><a href="doku.html">Dokumentation</a></li>
+        </ul>
+      </nav>
+    </header> -->
+    <div id="screen">
+      <div id="game">
+        <div id="game_background"></div>
+        <div id="game_elements"></div>
+        <div id="mellemgrund2"></div>
+        <div id="prinsesse_container">
+          <div id="prinsesse_sprite"></div>
+        </div>
+        <div id="konge_container">
+          <div id="konge_sprite"></div>
+        </div>
+        <div id="hofnar_container">
+          <div id="hofnar_sprite"></div>
+        </div>
+        <div id="mellemgrund"></div>
+        <div id="game_foreground"></div>
+        <div>
+          <div id="box1" class=""></div>
+          <div id="box2" class=""></div>
+          <div id="box3" class=""></div>
+          <div id="box4" class=""></div>
+        </div>
+        <div id="game_ui">
+          <div id="liv1"></div>
+          <div id="liv2"></div>
+          <div id="liv3"></div>
+          <div id="time_board">
+            <div id="time_container">
+              <div id="time_sprite"></div>
+            </div>
+          </div>
+          <div id="score_board">
+            <div id="score_number"></div>
+          </div>
+        </div>
+      </div>
+      <div id="start">
+        <div id="start_knap">PLAY</div>
+        <div id="howto_knap">HOW TO</div>
+        <div id="lyd" class="lydtil"></div>
+        <div id="info_screen">
+          <div id="info_knap">
+          <p>X</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="game_over">
+        <div id="game_over_txt">GAME OVER</div>
+        <div id="game_over_point"></div>
+        <div id="genstart1">TRY AGAIN</div>
+      </div>
+      <div id="level_complete">
+        <div id="level_complete_txt">
+          <p>CONGRATULATIONS</p>
+        </div>
+        <div id="level_complete_txt2">
+          <p>YOU WON</p>
+        </div>
+        <div id="level_complete_point"></div>
+        <div id="genstart2">TRY AGAIN</div>
+      </div>
+    </div>
+    <div>
+    <audio src="sounds/Splat.mp3" id="sound_splat" controls></audio>
+    <audio src="sounds/Splat.mp3" id="sound_splat2" controls></audio>
+    <audio src="sounds/Splat.mp3" id="sound_splat3" controls></audio>
+    <audio src="sounds/PeopleClapping.mp3" id="sound_clap" controls></audio>
+    <audio src="sounds/Fail2.mp3" id="sound_fail" controls></audio>
+    <audio src="sounds/background.mp3" id="sound_background" controls></audio>
+    </div>
+    <script src="spil.js"></script>
+  </body>
+</html>
